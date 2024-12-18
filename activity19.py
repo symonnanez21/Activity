@@ -1,4 +1,7 @@
 #MODULES
-from activity_18 import factorial
+global factorial
+global num
+from activity9 import factorial,num
 
-print(f"the factorial of 7 is {factorial(7)}")
+
+print(f"the factorial of {num} is {factorial}")
